@@ -168,7 +168,10 @@ function User() {
           
           </div>
         </div>
-        <RepoList repos={repos}/>
+        <div className="my-5">
+          <RepoList repos={repos}/>
+          </div>
+        
       </div>
     </>
   );
